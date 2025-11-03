@@ -1,0 +1,2 @@
+import React, {useState} from 'react';
+export default function MultiWalletBatch(){ const [list,setList] = useState(''); const runBatch = ()=>{ alert('Batch tool placeholder: paste addresses (one per line) and run scripts locally.'); }; return (<div className="card"><h4>Multi-wallet batch (placeholder)</h4><textarea rows={6} style={{width:'100%'}} value={list} onChange={e=>setList(e.target.value)}></textarea><div style={{marginTop:8}}><button className="btn" onClick={runBatch}>Run Batch (Local)</button></div></div>)}
